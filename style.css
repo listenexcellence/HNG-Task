@@ -1,0 +1,85 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  background-color: #16191c;
+}
+
+.container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cover-container {
+  max-width: 400em;
+  
+}
+.cover-container1 {
+  max-width: 50em;
+}
+.cover-container2 {
+  max-width: 400em;
+}
+
+.overlay {
+   object-fit: cover;
+    backface-visibility: visible; 
+    background: url(Resources/ferenc.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: auto;
+    opacity: 1;
+}
+.overlay1 {
+    width: auto; 
+    height: auto;
+    opacity: 1;
+}
+
+.img{
+       opacity: 0.4;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
